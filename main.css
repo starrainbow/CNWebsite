@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+.background {
+    background: url(Rainbow.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+#logo {
+    position: relative;
+    right: 750px;
+    width: 100px;
+    border-radius: 15px;
+    border: 2px solid purple;
+}
+.links{
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Josefin';
+    text-shadow: 1px 1px rgb(62, 187, 93);
+    color:rgb(3, 75, 21);
+    font-size: 30px;
+}
+
+#nutritionist {
+    display: flex;
+    justify-content: center;
+    padding: 20px
+}
+
+#ladyphoto {
+    border-radius: 15px;
+    border: 3px solid purple;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.2);
+    font-family:'Times New Roman';
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+    box-shadow: none;
+}
+a:visited{
+    color: rgb(62, 187, 93);
+}
+
+h1 {
+    color: #002fff;
+    font-size: 30px;
+    font-family: Rubik;
+    font-weight: 800;
+    text-align: center;
+    padding: 15px;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: 'STIX Two Math';
+    line-height: 1.8;
+    font-weight: 600;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    width: 300px;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'STIX Two Math';
+    line-height: 1.8;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 550px;
+    padding-right: 550px;
+}
+
+.illnesses {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#diabetes {
+    width: 400px;
+    height: 500px;
+    border-radius: 25px;
+    border: 3px solid black;
+}
+
+#weightcontrol {
+    width: 400px;
+    height: 500px;
+    border-radius: 25px;
+    border: 3px solid black;
+}
+
+#heartdisease {
+    width: 350px;
+    height: 300px;
+    border-radius: 25px;
+    border: 3px solid black;
+}
+
+#hypertension {
+    width: 350px;
+    height: 300px;
+    border-radius: 25px;
+    border: 3px solid black;
+}
+
+#ibs {
+    width: 350px;
+    height: 300px;
+    border-radius: 25px;
+    border: 3px solid black;
+}
+
+.illnesses2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#goodhealth1 {
+    display: flex;
+    justify-content: center;
+    padding: 20px
+}
+
+
+#applephoto {
+    border-radius: 15px;
+    border: 3px solid purple;
+    width: 1000px;
+}
+
+#eatwellplate1 {
+    display: flex;
+    justify-content: center;
+}
+
+#plate {
+    border: 10px solid rgb(15, 150, 60);
+    width: 800px;
+}
+
+.container {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 5px solid purple;
+    border-radius: 15px;
+  }
+  
+  .container .content {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+  }
+
+  * {box-sizing: border-box;}
+
+.img-zoom-container {
+  position: relative;
+}
+
+.img-zoom-lens {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  /*set the size of the lens:*/
+  width: 40px;
+  height: 40px;
+}
+
+.img-zoom-result {
+  border: 1px solid #d4d4d4;
+  /*set the size of the result div:*/
+  width: 300px;
+  height: 300px;
+}
+
+
+#baby {
+    border-radius: 50%;
+}
+.weaning {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.platefood {
+    display: flex;
+    justify-content: center;
+}
